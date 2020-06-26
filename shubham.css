@@ -1,16 +1,27 @@
 .btn{
-	border: none;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px;
-    background: transparent;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    color: black;
-    border-radius: 5px;
+	margin: .375rem;
+    color: inherit;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
     cursor: pointer;
-     text-transform: capitalize;
-         font-family: sans-serif;
+    border: 0;
+    border-radius: .125rem;
+
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+
+}
+.btn:hover{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.btn-rounded{
+	border-radius: 10em;
 }
 .btn-lg{
 	font-size:25px;
@@ -65,56 +76,274 @@
 	border-color: #800000;
 
 }
+.btn-maroon:hover{
+	color:#fff;
+	background: #5b0202;
+	border-color:#5b0202;
+
+}
 .btn-yellow{
-color:#fff;
+color:black;
 	background: #FFFF00;
 	border-color: #FFFF00;
-
+}
+.btn-yellow:hover{
+color:black;
+	background: #caca01;
+	border-color: #caca01;
 }
 .btn-olive{
 color:#fff;
 	background: #808000;
 	border-color: #808000;
 }
+.btn-olive:hover{
+color:#fff;
+	background: #666603;
+	border-color: #666603;
+}
 .btn-lime{
-	color:#fff;
+	color:black;
 	background: #00FF00;
 	border-color: #00FF00;
+}
+.btn-lime:hover{
+	color:black;
+	background: #06d906;
+	border-color: #06d906;
 }
 .btn-green{
 	color:#fff;
 	background: #008000;
 	border-color: #008000;
 }
-.btn-aqua{
+.btn-green:hover{
 	color:#fff;
+	background: #035503;
+	border-color: #035503;
+}
+
+.btn-aqua{
+	color:black;
 	background: #00FFFF;
 	border-color: #00FFFF;
+}
+.btn-aqua:hover{
+	color:black;
+	background: #05d7d7;
+	border-color: #05d7d7;
 }
 .btn-teal{
 	color:#fff;
 	background: #008080;
 	border-color: #008080;
 }
+.btn-teal:hover{
+	color:#fff;
+	background: #035757;
+	border-color: #035757;
+}
+
 .btn-blue{
 	color:#fff;
 	background: #0000FF;
 	border-color: #0000FF;
+}
+.btn-blue:hover{
+	color:#fff;
+	background: #0505a7;
+	border-color: #0505a7;
 }
 .btn-navy{
 color:#fff;
 background: #000080;
 	border-color: #000080;
 }
+.btn-navy:hover{
+color:#fff;
+background: #020255;
+	border-color: #020255;
+}
 .btn-fuchsia{
 color:#fff;
 background: #FF00FF;
 	border-color: #FF00FF;
 }
+.btn-fuchsia:hover{
+color:#fff;
+background: #a919a9;
+	border-color: #a919a9;
+}
 .btn-purple{
 	color:#fff;
 	background: #800080;
 	border-color: #800080;
+}
+.btn-purple:hover{
+	color:#fff;
+	background: #490349;
+	border-color: #490349;
+}
+
+.btn-outline-silver {
+	color: #C0C0C0;
+	border:1px solid #C0C0C0;
+}
+.btn-outline-silver:hover {
+	color: #fff;
+	background: #C0C0C0;
+	border:1px solid #C0C0C0;
+}
+.btn-outline-grey{
+	color:#808080;	
+	border:1px solid #808080;
+}
+.btn-outline-grey:hover{
+	color:#fff;
+	background: #808080;
+	border:1px solid #808080;
+}
+.btn-outline-black{
+	color:#000000;	
+	border:1px solid #000000;
+}
+.btn-outline-black:hover{
+	color:#fff;
+	background:#000000;	
+	border:1px solid #000000;
+}
+.btn-outline-red{
+	color:#FF0000;	
+	border:1px solid #FF0000;
+}
+.btn-outline-red:hover{
+	color: #fff;
+	background: #FF0000;	
+	border:1px solid #FF0000;
+}
+.btn-outline-maroon{
+	color:  #800000;
+	border:1px solid #800000;
+}
+.btn-outline-maroon:hover{
+	color: #fff;
+	background:  #800000;
+	border:1px solid #800000;
+}
+.btn-outline-yellow{
+	color:#FFFF00;	
+	border:1px solid #FFFF00;
+}
+.btn-outline-yellow:hover{
+	color: #fff;
+	background: #FFFF00;	
+	border:1px solid #FFFF00;
+}
+.btn-outline-olive{
+	color: #808000;
+	border:1px solid #808000;
+}
+.btn-outline-olive:hover{
+	color: #fff;
+	background:  #808000;
+	border-color: #808000;
+}
+.btn-outline-lime{
+	
+	color: #00FF00;
+	border:1px solid #00FF00;
+}
+.btn-outline-lime:hover{
+	color:#fff;
+	background: #00FF00;
+	border:1px solid #00FF00;
+}
+.btn-outline-green{
+	color: #008000;
+	border:1px solid #008000;
+}
+.btn-outline-green:hover{
+	background:  #008000;
+	color:#fff;
+	border:1px solid #008000;
+}
+.btn-outline-aqua{
+    color: #00FFFF;
+    border:1px solid #00FFFF;
+}
+.btn-outline-aqua:hover{
+    background: #00FFFF;
+    color:black;
+    border:1px solid #00FFFF;
+}
+.btn-outline-teal{
+    color: #008080;
+    border:1px solid #008080;
+}
+.btn-outline-teal:hover{
+    color: #fff;
+    background: #008080;
+ border:1px solid #008080;
+
+}
+.btn-outline-blue{
+	    color: #0000FF;
+    border:1px solid #0000FF;
+}
+.btn-outline-blue:hover{
+	    color: #fff;
+    background: #0000FF;
+    border:1px solid #0000FF;
+}
+.btn-outline-navy{
+ color: #000080;
+    border:1px solid #000080;
+}
+.btn-outline-navy:hover{
+	    color: #fff;
+    background: #000080;
+    border:1px solid #000080;
+}
+.btn-outline-fuchsia{
+  color: #FF00FF;
+    border:1px solid #FF00FF;
+}
+.btn-outline-fuchsia:hover{
+	color: #fff;
+    background: #FF00FF;
+    border:1px solid #FF00FF;
+}
+.btn-outline-purple{
+	
+    color: #800080;
+     border:1px solid #800080;
+}
+.btn-outline-purple:hover{
+	color: #fff;
+    background: #800080;
+    border:1px solid #800080;
+}
+
+.peach-gradient{
+	color:#fff;
+	    background: linear-gradient(40deg,#ffd86f,#fc6262) !important;
+}
+.purple-gradient{
+	color:#fff;
+	    background: linear-gradient(40deg,#ff6ec4,#7873f5) !important;
+}
+
+.blue-gradient {
+	color:#fff;
+    background: linear-gradient(40deg,#45cafc,#303f9f) !important;
+}
+
+.aqua-gradient {
+	color:#fff;
+    background: linear-gradient(40deg,#2096ff,#05ffa3) !important;
+}
+
+
 }
 <!---- padding --->
 .p-5{padding:5px;}
